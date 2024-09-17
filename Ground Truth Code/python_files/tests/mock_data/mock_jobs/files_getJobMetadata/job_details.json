@@ -1,0 +1,30 @@
+{
+    "model_name": "CNN",
+    "creation_date": "20231210_143809",
+    "hyperparams": {
+        "input_size": 1,
+        "conv_size_1": 14,
+        "conv_size_2": 28,
+        "fc1_size": 128,
+        "kernel_size_conv": 3,
+        "conv_stride": 1,
+        "pool_stride": 2,
+        "dropout_1": 0.25,
+        "dropout_2": 0.25,
+        "kernel_size_pool": 2,
+        "output_size": 10
+    },
+    "optimizer": "SGD",
+    "criterion": "CrossEntropyLoss",
+    "scheduler": "StepLR",
+    "dataset": "MNIST",
+    "num_classes": 10,
+    "corruption_arr": [
+        "0",
+        "0.25",
+        "0.5"
+    ],
+    "num_epochs": 3,
+    "data_chunk": 1,
+    "num_version": 1
+}

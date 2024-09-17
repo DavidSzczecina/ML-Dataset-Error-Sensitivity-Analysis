@@ -1,0 +1,4 @@
+corruption_rate,epoch,accuracy,training_loss,test_loss,avg_sens,avg_spec
+0.0,1,67.25,1.02,1.01,67.25,96.36
+0.0,2,77.89,0.42,0.7,77.89,97.54
+0.0,3,81.63,0.28,0.6,81.63,97.96000000000001

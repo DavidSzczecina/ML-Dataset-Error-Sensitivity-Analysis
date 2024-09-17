@@ -1,0 +1,4 @@
+num_epochs,seed_value,min_size,corruption_rates,num_classes,dataset,model_architecture
+3,1,1,0,10,MNIST,ResNet18
+3,1,1,0.25,10,MNIST,ResNet18
+3,1,1,0.5,10,MNIST,ResNet18
