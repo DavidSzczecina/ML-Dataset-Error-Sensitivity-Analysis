@@ -40,9 +40,6 @@ Project where we combine error sensitivity analysis with label error pruning to 
 # BIOSCAN-1M Insect
 All of the code in this repository was used to increase accuracy and provide more insight to the BIOSCAN-1M and BIOSCAN-5M datasets. Through the use of dataset label error detection, mislabeled data was identified and pruned to provide substantial accuracy improvments for certain classes within the dataset.
 
-
-![Alt Text](dataset/bioscan_images/Fig1.png)
-
 ###### <h3> Overview
 This repository houses the codes and data pertaining to the [BIOSCAN-1M-Insect project](https://biodiversitygenomics.net/1M_insects/). 
 Within this project, we introduce the __BIOSCAN-1M Insect dataset__, which can be accessed 
