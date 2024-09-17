@@ -2,11 +2,16 @@
 Conducting resarch on Error Sensitivity and Dataset Error Pruning for Machine Learning datasets. 
 Done under the supervision of Profesor Nicholas Pellegrino at the Waterloo Vision and Image Processing Lab.  
 
+
+## Overview
 All of the code in this repository was used to increase accuracy and provide more insight to the BIOSCAN-1M and BIOSCAN-5M datasets. Through the use of dataset label error detection, mislabeled data was identified and pruned to provide substantial accuracy improvments for certain classes within the dataset.
 
 
+## Contents
 
-# Dataset_Error_Detection_and_Pruning
+
+
+### Dataset_Error_Detection_and_Pruning
 Performed analysis of how accuracy and loss are affected by mislabeling of common ML datasets
 Models are used to predict on their own data by using a probabilistic approach to find noisy labels in datasets. 
 
@@ -16,7 +21,7 @@ To prevent the bias of predicting on data a model trained on, we use cross fold 
 
 
 
-# Ground-truth-error-sensitivity-analysis
+### Ground-truth-error-sensitivity-analysis
 Analysis code to test the sensitivity of various network models to errors in ground truth training data. 
 A Project for the University of Waterloo.
 
@@ -32,12 +37,12 @@ Run unit tests: (ensure in virtual env) cd into "python_files" directory, then r
 
 
 
-# error_sensitivity_and_pruning
+### Error Sensitivity and Pruning
 Project where we combine error sensitivity analysis with label error pruning to evaluate the effectiveness of error detection methods
 
 
 
-# BIOSCAN-1M Insect
+### BIOSCAN-1M Insect
 All of the code in this repository was used to increase accuracy and provide more insight to the BIOSCAN-1M and BIOSCAN-5M datasets. Through the use of dataset label error detection, mislabeled data was identified and pruned to provide substantial accuracy improvments for certain classes within the dataset.
 
 ###### <h3> Overview
